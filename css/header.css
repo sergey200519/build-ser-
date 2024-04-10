@@ -1,0 +1,28 @@
+.header {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header .container {
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    width: 165px;
+    height: 33px;
+}
+
+.header h1,
+.header nav a {
+    font-size: var(--fs_menu);
+    font-weight: var(--fw_menu);
+}
+
+.header ul {
+    display: flex;
+    gap: 42px;
+    
+}
+
