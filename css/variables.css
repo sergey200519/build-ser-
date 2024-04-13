@@ -1,4 +1,9 @@
 :root {
     --fs_menu: 18px;
     --fw_menu: 600;
+    --main_border-radius: 15px;
+    --form_border-radius: 5px;
+    
+    --orange: rgba(255, 153, 0, 1);
 }
+

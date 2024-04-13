@@ -1,5 +1,5 @@
 * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     color: rgb(0, 0, 0);
 }
 
@@ -8,4 +8,22 @@
     max-width: 1280px;
     padding: 0 25px;
     margin: 0 auto;
+    /* у контейнера шапки верхний и нижний margin 15px */
+}
+
+section {
+    margin-top: 60px;
+}
+
+img {
+    border-radius: var(--main_border-radius);
+}
+
+.btn {
+    background-color: var(--orange);
+    padding: 20px 38px;
+    border-radius: var(--main_border-radius);
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
 }
