@@ -1,0 +1,52 @@
+.wrap_questions {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.wrap_questions .question:first-child {
+    border-top: 1px #000 solid;
+
+}
+
+.wrap_questions .question {
+    position: relative;
+    border-bottom: 1px #000 solid;
+    padding: 19.6px 0;
+}
+
+
+.wrap_questions .question p::before,
+.wrap_questions .question p::after {
+    content: "";
+    position: absolute;
+    top: 29px;
+    display: block;
+    width: 41.42px;
+    height: 1.53px;
+    background: #000;
+    transition: .8s all;
+}
+
+
+.wrap_questions .question p::before {
+    transform: rotate(45deg);
+    right: 24px;
+
+}
+
+
+.wrap_questions .question p::after {
+    transform: rotate(-45deg);
+    right: -5px;
+
+}
+
+.wrap_questions .question:hover p::before {
+    transform: rotate(-45deg);
+}
+
+
+.wrap_questions .question:hover p::after {
+    transform: rotate(45deg);
+}
