@@ -9,10 +9,18 @@
     padding: 0 25px;
     margin: 0 auto;
     /* у контейнера шапки верхний и нижний margin 15px */
+
 }
 
+header,
 section {
-    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 38px;
+    font-weight: 600;
 }
 
 img {
@@ -20,10 +28,16 @@ img {
 }
 
 .btn {
+    display: block;
+    width: fit-content;
     background-color: var(--orange);
     padding: 20px 38px;
     border-radius: var(--main_border-radius);
     font-size: 16px;
     font-weight: 700;
     cursor: pointer;
+}
+
+nav a:hover {
+    color: var(--orange);
 }

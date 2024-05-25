@@ -1,0 +1,60 @@
+.about_wrapper {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+
+}
+
+.about_left {
+    position: relative;
+    width: 644px;
+    
+}
+.about_left img {
+    display: block;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+.about_left_info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: var(--main_border-radius);
+    padding: 20px;
+    
+    
+}
+
+.about_left_info .btn {
+    border: 3px solid var(--orange);
+    padding: 19px 35px;
+    background: none;
+    color: #fff;
+    line-height: 15px;
+
+}
+
+.about_left_info p {
+    color: #fff;
+    max-width: 336px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.about_right {
+    width: 556px;
+}
+
+.about_right p {
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
