@@ -1,6 +1,7 @@
 .welcome_content {
 position: relative;
 height: 600px;
+overflow: hidden;
 }
 
 .welcome h2 {
@@ -33,4 +34,15 @@ height: 600px;
     font-size: 24px;
     font-weight: 600;
     padding: 13.5px 26.75px;
+}
+
+.img_container {
+    display: flex;
+    /* margin-left: 500px; */
+    transition: 1s;
+
+}
+
+.img_container img {
+    width: var(--width_slide);
 }
