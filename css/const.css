@@ -39,5 +39,5 @@ img {
 }
 
 nav a:hover {
-    color: var(--orange);
+    color: var(--orange) !important;
 }
